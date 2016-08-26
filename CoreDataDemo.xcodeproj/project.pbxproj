@@ -12,7 +12,11 @@
 		25DBA9291D704FEC0039E333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DBA9271D704FEC0039E333 /* Main.storyboard */; };
 		25DBA92C1D704FEC0039E333 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25DBA92A1D704FEC0039E333 /* CoreDataDemo.xcdatamodeld */; };
 		25DBA92E1D704FEC0039E333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DBA92D1D704FEC0039E333 /* Assets.xcassets */; };
-		25DBA9311D704FEC0039E333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DBA92F1D704FEC0039E333 /* LaunchScreen.storyboard */; };
+		25DBA9391D704FFC0039E333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DBA9381D704FFC0039E333 /* LaunchScreen.storyboard */; };
+		25DBA93C1D70521C0039E333 /* DemoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBA93A1D70521C0039E333 /* DemoEntity+CoreDataProperties.swift */; };
+		25DBA93D1D70521C0039E333 /* DemoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBA93B1D70521C0039E333 /* DemoEntity.swift */; };
+		25DBA9401D7052990039E333 /* TestEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBA93E1D7052990039E333 /* TestEntity+CoreDataProperties.swift */; };
+		25DBA9411D7052990039E333 /* TestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBA93F1D7052990039E333 /* TestEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +26,12 @@
 		25DBA9281D704FEC0039E333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25DBA92B1D704FEC0039E333 /* CoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
 		25DBA92D1D704FEC0039E333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		25DBA9301D704FEC0039E333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25DBA9321D704FEC0039E333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DBA9381D704FFC0039E333 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25DBA93A1D70521C0039E333 /* DemoEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DemoEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		25DBA93B1D70521C0039E333 /* DemoEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoEntity.swift; sourceTree = "<group>"; };
+		25DBA93E1D7052990039E333 /* TestEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TestEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		25DBA93F1D7052990039E333 /* TestEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,13 @@
 				25DBA9251D704FEC0039E333 /* ViewController.swift */,
 				25DBA9271D704FEC0039E333 /* Main.storyboard */,
 				25DBA92D1D704FEC0039E333 /* Assets.xcassets */,
-				25DBA92F1D704FEC0039E333 /* LaunchScreen.storyboard */,
 				25DBA9321D704FEC0039E333 /* Info.plist */,
 				25DBA92A1D704FEC0039E333 /* CoreDataDemo.xcdatamodeld */,
+				25DBA93E1D7052990039E333 /* TestEntity+CoreDataProperties.swift */,
+				25DBA93F1D7052990039E333 /* TestEntity.swift */,
+				25DBA93A1D70521C0039E333 /* DemoEntity+CoreDataProperties.swift */,
+				25DBA93B1D70521C0039E333 /* DemoEntity.swift */,
+				25DBA9381D704FFC0039E333 /* LaunchScreen.storyboard */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";
@@ -126,7 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DBA9311D704FEC0039E333 /* LaunchScreen.storyboard in Resources */,
+				25DBA9391D704FFC0039E333 /* LaunchScreen.storyboard in Resources */,
 				25DBA92E1D704FEC0039E333 /* Assets.xcassets in Resources */,
 				25DBA9291D704FEC0039E333 /* Main.storyboard in Resources */,
 			);
@@ -141,7 +153,11 @@
 			files = (
 				25DBA9261D704FEC0039E333 /* ViewController.swift in Sources */,
 				25DBA92C1D704FEC0039E333 /* CoreDataDemo.xcdatamodeld in Sources */,
+				25DBA93D1D70521C0039E333 /* DemoEntity.swift in Sources */,
 				25DBA9241D704FEC0039E333 /* AppDelegate.swift in Sources */,
+				25DBA9411D7052990039E333 /* TestEntity.swift in Sources */,
+				25DBA9401D7052990039E333 /* TestEntity+CoreDataProperties.swift in Sources */,
+				25DBA93C1D70521C0039E333 /* DemoEntity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,14 +170,6 @@
 				25DBA9281D704FEC0039E333 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		25DBA92F1D704FEC0039E333 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25DBA9301D704FEC0039E333 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
